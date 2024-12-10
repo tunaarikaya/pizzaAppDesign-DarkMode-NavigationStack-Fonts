@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  TasarimCalismasi
+
+  Created by Mehmet Tuna Arıkaya on 10.12.2024.
+  
+*/
+"pizzaBaslik" = "Meaty Cheese";
+"peynirYazi" = "Cheese";
+"sucukYazi" = "Sausage";
+"zeytinYazi" = "Olives";
+"biberYazi" = "Pepper";
+"teslimatSure" = "20 min";
+"teslimatBaslik" = "Delivery";
+"pizzaAciklama" = "Meat lover, get ready to meet your pizza!";
+"fiyat" = "$6.15";
+"buttonYazi" = "ADD TO CART";

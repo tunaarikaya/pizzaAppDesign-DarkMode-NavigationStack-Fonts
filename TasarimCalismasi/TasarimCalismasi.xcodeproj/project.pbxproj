@@ -7,19 +7,32 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		3E1B7A9A2D07090B00A64347 /* TasarimProjesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasarimProjesi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC333242D070A7500AA7AC1 /* TasarimCalismasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasarimCalismasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3EC333392D0714B100AA7AC1 /* Exceptions for "TasarimCalismasi" folder in "TasarimCalismasi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3EC333232D070A7500AA7AC1 /* TasarimCalismasi */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3E1B7A9C2D07090B00A64347 /* TasarimProjesi */ = {
+		3EC333262D070A7500AA7AC1 /* TasarimCalismasi */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TasarimProjesi;
+			exceptions = (
+				3EC333392D0714B100AA7AC1 /* Exceptions for "TasarimCalismasi" folder in "TasarimCalismasi" target */,
+			);
+			path = TasarimCalismasi;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3E1B7A972D07090B00A64347 /* Frameworks */ = {
+		3EC333212D070A7500AA7AC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E1B7A912D07090B00A64347 = {
+		3EC3331B2D070A7500AA7AC1 = {
 			isa = PBXGroup;
 			children = (
-				3E1B7A9C2D07090B00A64347 /* TasarimProjesi */,
-				3E1B7A9B2D07090B00A64347 /* Products */,
+				3EC333262D070A7500AA7AC1 /* TasarimCalismasi */,
+				3EC333252D070A7500AA7AC1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3E1B7A9B2D07090B00A64347 /* Products */ = {
+		3EC333252D070A7500AA7AC1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E1B7A9A2D07090B00A64347 /* TasarimProjesi.app */,
+				3EC333242D070A7500AA7AC1 /* TasarimCalismasi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +61,65 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3E1B7A992D07090B00A64347 /* TasarimProjesi */ = {
+		3EC333232D070A7500AA7AC1 /* TasarimCalismasi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E1B7AAA2D07090D00A64347 /* Build configuration list for PBXNativeTarget "TasarimProjesi" */;
+			buildConfigurationList = 3EC333322D070A7600AA7AC1 /* Build configuration list for PBXNativeTarget "TasarimCalismasi" */;
 			buildPhases = (
-				3E1B7A962D07090B00A64347 /* Sources */,
-				3E1B7A972D07090B00A64347 /* Frameworks */,
-				3E1B7A982D07090B00A64347 /* Resources */,
+				3EC333202D070A7500AA7AC1 /* Sources */,
+				3EC333212D070A7500AA7AC1 /* Frameworks */,
+				3EC333222D070A7500AA7AC1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				3E1B7A9C2D07090B00A64347 /* TasarimProjesi */,
+				3EC333262D070A7500AA7AC1 /* TasarimCalismasi */,
 			);
-			name = TasarimProjesi;
+			name = TasarimCalismasi;
 			packageProductDependencies = (
 			);
-			productName = TasarimProjesi;
-			productReference = 3E1B7A9A2D07090B00A64347 /* TasarimProjesi.app */;
+			productName = TasarimCalismasi;
+			productReference = 3EC333242D070A7500AA7AC1 /* TasarimCalismasi.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3E1B7A922D07090B00A64347 /* Project object */ = {
+		3EC3331C2D070A7500AA7AC1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					3E1B7A992D07090B00A64347 = {
+					3EC333232D070A7500AA7AC1 = {
 						CreatedOnToolsVersion = 16.1;
 					};
 				};
 			};
-			buildConfigurationList = 3E1B7A952D07090B00A64347 /* Build configuration list for PBXProject "TasarimProjesi" */;
+			buildConfigurationList = 3EC3331F2D070A7500AA7AC1 /* Build configuration list for PBXProject "TasarimCalismasi" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
-			mainGroup = 3E1B7A912D07090B00A64347;
+			mainGroup = 3EC3331B2D070A7500AA7AC1;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 3E1B7A9B2D07090B00A64347 /* Products */;
+			productRefGroup = 3EC333252D070A7500AA7AC1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E1B7A992D07090B00A64347 /* TasarimProjesi */,
+				3EC333232D070A7500AA7AC1 /* TasarimCalismasi */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3E1B7A982D07090B00A64347 /* Resources */ = {
+		3EC333222D070A7500AA7AC1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +129,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3E1B7A962D07090B00A64347 /* Sources */ = {
+		3EC333202D070A7500AA7AC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,11 +139,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3E1B7AA82D07090D00A64347 /* Debug */ = {
+		3EC333302D070A7600AA7AC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -188,11 +203,12 @@
 			};
 			name = Debug;
 		};
-		3E1B7AA92D07090D00A64347 /* Release */ = {
+		3EC333312D070A7600AA7AC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -244,16 +260,18 @@
 			};
 			name = Release;
 		};
-		3E1B7AAB2D07090D00A64347 /* Debug */ = {
+		3EC333332D070A7600AA7AC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TasarimProjesi/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TasarimCalismasi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TasarimCalismasi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pizza app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -264,7 +282,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tuna.TasarimProjesi;
+				PRODUCT_BUNDLE_IDENTIFIER = tuna.TasarimCalismasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -272,16 +290,18 @@
 			};
 			name = Debug;
 		};
-		3E1B7AAC2D07090D00A64347 /* Release */ = {
+		3EC333342D070A7600AA7AC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TasarimProjesi/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TasarimCalismasi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TasarimCalismasi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pizza app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -292,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tuna.TasarimProjesi;
+				PRODUCT_BUNDLE_IDENTIFIER = tuna.TasarimCalismasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -303,25 +323,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E1B7A952D07090B00A64347 /* Build configuration list for PBXProject "TasarimProjesi" */ = {
+		3EC3331F2D070A7500AA7AC1 /* Build configuration list for PBXProject "TasarimCalismasi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E1B7AA82D07090D00A64347 /* Debug */,
-				3E1B7AA92D07090D00A64347 /* Release */,
+				3EC333302D070A7600AA7AC1 /* Debug */,
+				3EC333312D070A7600AA7AC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E1B7AAA2D07090D00A64347 /* Build configuration list for PBXNativeTarget "TasarimProjesi" */ = {
+		3EC333322D070A7600AA7AC1 /* Build configuration list for PBXNativeTarget "TasarimCalismasi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E1B7AAB2D07090D00A64347 /* Debug */,
-				3E1B7AAC2D07090D00A64347 /* Release */,
+				3EC333332D070A7600AA7AC1 /* Debug */,
+				3EC333342D070A7600AA7AC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3E1B7A922D07090B00A64347 /* Project object */;
+	rootObject = 3EC3331C2D070A7500AA7AC1 /* Project object */;
 }
